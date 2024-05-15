@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    background-color: #cadfff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+#title{
+    margin-left: 10%;
+    color: #134e89;
+    font-size: 40px;
+}
+#to-do-app{
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#task-input{
+    width: 100%;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #bdbdbd;
+}
+#add-button{
+    margin-left: 34%;
+    padding: 10px 20px;
+    border: 1px solid #5d9bda;
+    color: #0c457d;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#add-button:hover{
+    color: #fff;
+    background-color: #5ea0e2;
+    border: 1px solid #1489ff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: #95969732;
+    border-radius: 10px;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.delete-button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkedbutton{
+    margin-left: 10px;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+}
